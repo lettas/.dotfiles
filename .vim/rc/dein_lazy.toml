@@ -1,5 +1,6 @@
 [[plugins]]
 repo = 'Shougo/unite.vim'
+hook_add = 'source ~/.vim/userautoload/plugins/unite.vim'
 
 [[plugins]]
 repo = 'Shougo/neomru.vim'
