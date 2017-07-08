@@ -14,3 +14,5 @@
   graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
   amend = commit --amend -C HEAD
   changed = whatchanged --pretty=format:'%Cgreen%h%Creset %ad [%Cblue%an%Creset] %s%Cred%d%Creset'
+[core]
+  excludesfile = ~/.gitignore
