@@ -14,3 +14,4 @@ else
 fi
 export MYSQL_PS1='\u@\h [\d]> '
 export EDITOR=vim
+export PATH="$HOME/.npm-global/bin:$PATH"
