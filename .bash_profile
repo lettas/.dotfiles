@@ -15,3 +15,6 @@ fi
 export MYSQL_PS1='\u@\h [\d]> '
 export EDITOR=vim
 export PATH="$HOME/.npm-global/bin:$PATH"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
