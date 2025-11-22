@@ -1,5 +1,5 @@
-GIT_COMPLETION_FILE=/etc/bash_completion.d/git
-GIT_PROMPT_FILE=/etc/bash_completion.d/git
+GIT_COMPLETION_FILE=/etc/bash_completion.d/git-prompt
+GIT_PROMPT_FILE=/etc/bash_completion.d/git-prompt
 if [ `uname` = 'Darwin' ]; then
   GIT_COMPLETION_FILE=/usr/local/etc/bash_completion.d/git-completion.bash
   GIT_PROMPT_FILE=/usr/local/etc/bash_completion.d/git-prompt.sh
